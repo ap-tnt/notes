@@ -3,6 +3,7 @@ layout: post
 title:  "Notes on Execution Plans"
 date:   2020-10-01 06:26:52 +0100
 categories: jekyll update
+tags: [execution plans, sql]
 # bundle exec jekyll serve --livereload
 ---
 

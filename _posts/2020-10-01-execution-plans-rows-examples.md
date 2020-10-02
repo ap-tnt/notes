@@ -3,7 +3,7 @@ layout: post
 title:  "Examples of Rowcounts in Operators"
 date:   2020-10-01 16:30:52 +0100
 categories: execution plans
-tags: [execution plans, sql]
+tags: [Execution Plans, SQL]
 # bundle exec jekyll serve --livereload
 ---
 I quite often get confused with rowcounts in execution plans, so this page will be a load of examples that I can refer back to.

@@ -3,7 +3,7 @@ layout: post
 title:  "Indexing for Equality Searches"
 date:   2020-09-29 16:26:52 +0100
 categories: jekyll update
-tags: [indexes, sql]
+tags: [Indexes, SQL]
 ---
 Before we get into that, here is a top tip. To visualise an index, do a select query that matches its structure (including the order by). You should get an index scan in the execution plan, and NOTHING else.\
 \

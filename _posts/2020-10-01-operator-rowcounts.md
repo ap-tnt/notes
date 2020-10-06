@@ -18,5 +18,19 @@ from users
 where DisplayName = 'chris'
 and location <> 'San Francisco, CA'
 ```
-
+\
 And here's the execution plan:
+
+![](/notes/images/2020-10-06-08-05-20.png)
+
+- This query returns 253 rows
+- There are 926 Chris's
+
+Index seek is easy:
+
+![](/notes/images/2020-10-06-08-13-28.png)
+
+The key lookup is more interesting:
+
+![](/notes/images/2020-10-06-08-16-58.png)
+![](/notes/images/2020-10-06-08-17-50.png)

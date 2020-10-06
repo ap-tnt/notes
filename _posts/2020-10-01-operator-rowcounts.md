@@ -33,4 +33,9 @@ Index seek is easy:
 The key lookup is more interesting:
 
 ![](/notes/images/2020-10-06-08-16-58.png)
-![](/notes/images/2020-10-06-08-17-50.png)
+
+- The SSMS key lookup operator said 253 of 563708. That's 253 results coming from that operator (i.e. Chris + <> San Francisco, CA), and 563708 estimated number of rows for all executions.
+- The 563708 figure comes from estimated number of rows per execution * number of exections, or 608.756 * 926 = 563,708.056.
+- Plan Explorer does not show estimated number of rows for all executions.
+- I'm not sure yet where estimated number of rows per execution comes from (608.756), but I think it's coming from the stats.
+- Estimated number of rows per execution in SSMS is what Plan Explorer calls Estimated Rows.

@@ -5,6 +5,7 @@ date:   2020-09-30 16:26:52 +0100
 categories: SQL
 tags: [Indexes, SQL]
 ---
+<!--- categories: jekyll update --->
 Now let's consider this query:
 
 ```sql
@@ -80,4 +81,4 @@ Also, see how Plan Explorer makes it more obvious that there is a problem:
 
 ![](/notes/images/2020-10-14-08-48-23.png)
 
-I think we're getting the residual predicate thing going on again. The only thing I'm not sure about is that the predicate in my [example on indexing for equality](2020-09-29-indexes-equality.md) had an @2 in it, and this one doesn't.
+We're getting the residual predicate thing going on again (where you have a predicate without the word "seek" in front of them). 
